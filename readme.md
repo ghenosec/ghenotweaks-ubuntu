@@ -1,6 +1,6 @@
-# Gheno Tweaks
+# Gheno Tweaks - Linux UBUNTU
 
-**APENAS PARA LINUX UBUNTU**
+**Versão para [WINDOWS](https://github.com/ghenosec/ghenotweaks)** 
 
 Uma ferramenta simples em Python para aplicar otimizações de desempenho e jogos no Linux UBUNTU.
 Criei com o intuito de, após o Sistema formatado, em poucos segundos terá seu linux pré otimizado.
