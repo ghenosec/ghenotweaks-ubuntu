@@ -72,7 +72,12 @@ def check_root():
 
 
 def display_menu():
-    print("\n--- GhenoTweaks - Ubuntu - Menu de Otimização ---")
+    """Exibe as opções do menu principal com espaçamento."""
+    print("\n" * 3)  # Adiciona 3 linhas vazias para espaçamento antes do título
+
+    print("--- GhenoTweaks - Ubuntu - Menu de Otimização ---")
+    print("\n")  # Espaçamento entre o título e a primeira opção
+
     print("1. Otimizar Swappiness do Kernel (Controle de uso da SWAP)")
     print("2. Otimizar VFS Cache Pressure do Kernel (Gerenciamento de cache do sistema de arquivos)")
     print("3. Desabilitar Serviços Systemd Desnecessários")
@@ -81,7 +86,10 @@ def display_menu():
     print("6. Limpeza de Pacotes e Caches do APT")
     print("7. Configurar ZRAM (Memória RAM Comprimida como SWAP)")
     print("0. Sair")
+    
+    print("\n" * 2)  # Adiciona 2 linhas vazias para espaçamento antes da linha de traços
     print("---------------------------------------------")
+    print("\n") # Espaçamento após a linha de traços
 
 
 def get_user_choice():
