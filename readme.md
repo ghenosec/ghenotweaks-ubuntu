@@ -5,6 +5,10 @@
 Uma ferramenta simples em Python para aplicar otimizações de desempenho e jogos no Linux UBUNTU.
 Criei com o intuito de, após o Sistema formatado, em poucos segundos terá seu linux pré otimizado.
 
+<p align="center">
+ <img src="https://github.com/ghenosec/ghenotweaks_ubuntu/blob/main/optimizer.png" alt="example" height=400></a>
+</p>
+
 ## Funcionalidades
 
 - Otimizar Swappiness do Kernel (Controle de uso da SWAP)
