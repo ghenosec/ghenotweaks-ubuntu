@@ -6,7 +6,7 @@ Uma ferramenta simples em Python para aplicar otimizações de desempenho e jogo
 Criei com o intuito de, após o Sistema formatado, em poucos segundos terá seu linux pré otimizado.
 
 <p align="center">
- <img src="https://github.com/ghenosec/ghenotweaks_ubuntu/blob/main/optimizer.png" alt="example" height=400></a>
+ <img src="https://github.com/ghenosec/ghenotweaks-ubuntu/blob/main/optimizer.png" alt="example" height=400></a>
 </p>
 
 ## Funcionalidades
