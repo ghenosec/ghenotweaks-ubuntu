@@ -72,7 +72,6 @@ def check_root():
 
 
 def display_menu():
-    """Exibe as opções do menu principal com espaçamento."""
     print("\n" * 3) 
 
     print("--- GhenoTweaks - Ubuntu - Menu de Otimização ---")
