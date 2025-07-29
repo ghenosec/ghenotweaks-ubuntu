@@ -8,7 +8,7 @@ SYSCTL_CONF = "/etc/sysctl.conf"
 GRUB_DEFAULT = "/etc/default/grub"
 FSTAB = "/etc/fstab"
 BACKUP_BASE_DIR = "/var/backups/ghenotweaks_ubuntu/"
-GLOSSARY_LINK = "https://github.com/ghenosec/ghenotweaks/blob/main/docs/optimization_terms.md"
+GLOSSARY_LINK = "https://github.com/ghenosec/ghenotweaks-ubuntu/blob/main/optimization_terms.md"
 
 
 def run_command(command, check=True, shell=False, show_output=True):
@@ -452,9 +452,9 @@ def configure_zram():
 
 def show_info_link():
     print("\n--- Saiba mais sobre os termos de otimização ---")
-    print("Para entender melhor os termos e conceitos usados nas otimizações,")
+    print("\nPara entender melhor os termos e conceitos usados nas otimizações,")
     print(f"visite o glossário: {GLOSSARY_LINK}")
-    print("Este link contém explicações detalhadas sobre cada termo, ajudando você a entender melhor sobre cada otimização.")
+    print("\nEste link contém explicações detalhadas sobre cada termo, ajudando você a entender melhor sobre cada otimização.")
 
 
 def main():
