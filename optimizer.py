@@ -88,7 +88,7 @@ def display_menu():
     print("8. Saiba mais sobre os termos de otimização (link externo)")
     print("0. Sair")
     
-    print("\n" * 2) 
+    print("\n") 
     print("---------------------------------------------")
     print("\n") 
 
