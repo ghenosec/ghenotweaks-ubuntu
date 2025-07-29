@@ -8,6 +8,7 @@ SYSCTL_CONF = "/etc/sysctl.conf"
 GRUB_DEFAULT = "/etc/default/grub"
 FSTAB = "/etc/fstab"
 BACKUP_BASE_DIR = "/var/backups/ghenotweaks_ubuntu/"
+GLOSSARY_LINK = "https://github.com/ghenosec/ghenotweaks/blob/main/docs/optimization_terms.md"
 
 
 def run_command(command, check=True, shell=False, show_output=True):
@@ -84,6 +85,7 @@ def display_menu():
     print("5. Habilitar 'noatime' em FSTAB (Reduzir escritas em disco para SSDs)")
     print("6. Limpeza de Pacotes e Caches do APT")
     print("7. Configurar ZRAM (Memória RAM Comprimida como SWAP)")
+    print("8. Saiba mais sobre os termos de otimização (link externo)")
     print("0. Sair")
     
     print("\n" * 2) 
@@ -97,7 +99,7 @@ def get_user_choice():
             choice = input("Escolha uma opção (0-7): ")
             if choice.isdigit():
                 choice = int(choice)
-                if 0 <= choice <= 7:
+                if 0 <= choice <= 8:
                     return choice
             print("Opção inválida. Por favor, digite um número entre 0 e 7.")
         except ValueError:
@@ -448,6 +450,12 @@ def configure_zram():
         else:
             print("Falha ao ativar ZRAM. Verifique os logs do sistema.")
 
+def show_info_link():
+    print("\n--- Saiba mais sobre os termos de otimização ---")
+    print("Para entender melhor os termos e conceitos usados nas otimizações,")
+    print(f"visite o glossário: {GLOSSARY_LINK}")
+    print("Este link contém explicações detalhadas sobre cada termo, ajudando você a entender melhor sobre cada otimização.")
+
 
 def main():
     check_root()
@@ -473,6 +481,8 @@ def main():
             cleanup_apt_packages()
         elif choice == 7:
             configure_zram()
+        elif choice == 8:
+            show_info_link()    
         elif choice == 0:
             print("Saindo do GhenoTweaks. Obrigado por usar!")
             break
