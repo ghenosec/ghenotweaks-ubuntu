@@ -33,4 +33,5 @@ Criei com o intuito de, após o Sistema formatado, em poucos segundos terá seu 
 **AVISO:** Este programa modifica algumas funcionalidades do OS. Use por sua conta e risco.
 
 **NOTA:** Algumas otimizações podem exigir que você reinicie o sistema para que as mudanças sejam aplicadas completamente.
+
 ---
