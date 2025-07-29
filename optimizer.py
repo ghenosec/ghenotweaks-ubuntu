@@ -101,7 +101,7 @@ def get_user_choice():
                 choice = int(choice)
                 if 0 <= choice <= 8:
                     return choice
-            print("Opção inválida. Por favor, digite um número entre 0 e 7.")
+            print("Opção inválida. Por favor, digite um número entre 0 e 8.")
         except ValueError:
             print("Entrada inválida. Por favor, digite um número.")
 
