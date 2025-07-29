@@ -96,7 +96,7 @@ def display_menu():
 def get_user_choice():
     while True:
         try:
-            choice = input("Escolha uma opção (0-7): ")
+            choice = input("Escolha uma opção (0-8): ")
             if choice.isdigit():
                 choice = int(choice)
                 if 0 <= choice <= 8:
